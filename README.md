@@ -45,8 +45,6 @@ day15p/<br>
 
 ![screenshot](./images/sample.png)
 
-> _Replace this screenshot with an actual image of your project UI for better presentation._
-
 <br>
 
 ## Getting Started
