@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #f7cac9, #92a8d1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.heading {
+    background-color: #fff;
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading h1 {
+    font-size: 3rem;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.heading p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+input[type="search"],
+select.form-select {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    background-color: #fff;
+    border-radius: 10px;
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.box h2 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #e67e22;
+}
+
+.box p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
